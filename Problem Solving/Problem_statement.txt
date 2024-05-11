@@ -1,0 +1,2 @@
+1. Given an array of integers, find the maximum integer in the array
+2. Given a sequnce of numbers that contains a number k, find the position of the number k, assuming the sequence is an array

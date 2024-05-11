@@ -1,1 +1,63 @@
 /* selectors */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  height: 100dvh;
+} */
+header {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: row; */
+  height: 10dvh;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+}
+.nav_bar {
+  width: 30%;
+}
+.nav_bar ul {
+  /* background-color: blueviolet; */
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section {
+  height: 80dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .center p {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section .center p:nth-child(2) {
+  text-align: left;
+  color: red;
+  text-transform: uppercase;
+}
+
+footer {
+  height: 10dvh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+footer p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.1rem;
+}
