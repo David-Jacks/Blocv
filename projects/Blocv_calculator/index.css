@@ -1,0 +1,25 @@
+/* importing fonts from google fonts */
+
+/* css variables */
+:root {
+  --font: ;
+  --white: ;
+  --black: ;
+  --large_text: ;
+  --medium_text: ;
+  --smaller_text: ;
+}
+
+[data-theme="dark"] {
+  --font: ;
+  --white: ;
+  --black: ;
+  --large_text: ;
+  --medium_text: ;
+  --smaller_text: ;
+}
+/* universal css rule */
+* {
+  margin: 0;
+  padding: 0;
+}
